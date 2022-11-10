@@ -10,7 +10,7 @@ variable "access_key" {}
 variable "secret_key" {}
 
 
-secret_key = "${var.secret_key}"
+#secret_key = "${var.secret_key}"
 
 provider "aws" {
   #access_key = "<+secrets.getValue("awssecretkey")>"
