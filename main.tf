@@ -7,7 +7,8 @@ terraform {
   }
 }
 
-
+variable "access_key" {}
+variable "secret_key" {}
 
 #secret_key = "${var.secret_key}"
 
