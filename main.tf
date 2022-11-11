@@ -15,7 +15,7 @@ provider "aws" {
   #access_key = "<+secrets.getValue("awssecretkey")>"
   #secret_key = "<+secrets.getValue("awssecretkeytf")>"
   access_key = var.secret_key
-  secret_key = var.secret_key
+  secret_key = var.access_key
   region = "us-east-1"
 }
 /*
