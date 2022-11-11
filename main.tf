@@ -1,3 +1,11 @@
+variable "access_key" {
+  type = string
+}
+
+variable "secret_key" {
+  type = string
+}
+
 terraform {
   required_providers {
     aws = {
@@ -7,13 +15,7 @@ terraform {
   }
 }
 
-#variable "access_key" {
- # type = string
-#}
 
-#variable "secret_key" {
- # type = string
-#}
 
 #secret_key = "${var.secret_key}"
 
